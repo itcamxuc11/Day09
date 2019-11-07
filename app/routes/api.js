@@ -59,6 +59,7 @@ module.exports = function (app, express) {
         });
     });
 
+    /*
     // route middleware to verify a token
     apiRouter.use(function (req, res, next) {
         // do logging
@@ -90,7 +91,7 @@ module.exports = function (app, express) {
 
         next(); // make sure we go to the next routes and don't stop here
     });
-
+*/
     // test route to make sure everything is working 
     // accessed at GET http://localhost:8080/api
     apiRouter.get('/', function (req, res) {
